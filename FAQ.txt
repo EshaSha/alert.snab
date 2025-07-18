@@ -1,0 +1,8 @@
+Перейди в папку проекта, где лежит папка venv, например:
+powershell cd D:\alert.snab\alert.snab
+Активируй виртуальное окружение командой:
+powershell .\venv\Scripts\Activate.ps1
+Если появится ошибка политики выполнения (Execution Policy), временно разреши выполнение скриптов:
+powershellSet-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+Затем снова:
+powershell .\venv\Scripts\Activate.ps1
